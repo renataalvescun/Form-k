@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"> </script>
+    <link rel="shortcut icon" href="img/icons8-lua-brilhante-16.png" type="image/x-icon">
+</head>
+<body>
+    <main id="main">
+        <section class="form">
+            <img id="img-user" src="img/user.png" alt="">
+            <form class="form-content">
+                <h1> Login </h1>
+                <p class="input-bg">
+                    <i class=" icon ph ph-user-circle"></i>
+                    <input type="text" id="name" placeholder="Digite seu usúario" />
+                </p>
+                <p class="input-bg">
+                    <i  class=" icon ph ph-lock"></i>
+                    <input type="password" id="senha"  placeholder="Digite sua senha" minlength="8" required />
+                </p>
+                <i class="icon eye2 ph ph-eye" id="verSenha"> </i>
+                <script src="botao.js"> </script>
+                <div id="lembrar-input"> 
+                    <input type="checkbox" name="lembrar" id="lembrar"> 
+                    <label> Lembre-se de mim </label>
+                    <p class="esqueci-senha"> 
+                     <i>   Esqueceu a <a href="esqueceu-senha.html" target="_blank" rel="noopener noreferrer"> senha? </a>
+                     </i> 
+                    </p>
+                </div>
+                <button onclick='cadastrar()' id='button'> Login </button>
+                <p class="p-registro"> Não tem conta? Não perca tempo, se registre <a href="registro.html"> aqui! </a> </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> Foto do background de
+            <a href="https://unsplash.com/@fakurian?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Milad
+                Fakurian</a> na <a
+                href="https://unsplash.com/pt-br/fotografias/PGdW_bHDbpI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            <p> <a href="https://www.flaticon.com/free-icons/login" title="login icons"> Login icons created by
+                    abyhadesign - Flaticon</a> </p>
+                    <p> <a target="_blank" href="https://icons8.com/icon/pUR1HIVWdCHs/lua-brilhante">Lua brilhante</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> </p>
+    </footer>
+</body>
+
+</html>

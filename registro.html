@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"> </script>
+    <link rel="shortcut icon" href="img/icons8-lua-brilhante-16.png" type="image/x-icon">
+</head>
+<body>
+    <main id="main">
+        <section class="form">
+            <img id="img-user" src="img/user.png" alt="">
+            <form class="form-content">
+                <h1> Registre-se </h1>
+                <!-- nome -->
+                <p class="input-bg">
+                    <i class="icon ph ph-user-focus"></i>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required />
+                    <!-- usuario -->
+                    <p class="input-bg">
+                        <i class=" icon ph ph-user"></i>
+                        <input type="text" id="usuario" placeholder="Defina um @usuário"  minlength="4" required />
+                        <!-- EMAIL -->
+                        <p class="input-bg">
+                            <i class="icon ph ph-envelope"></i>
+                            <input type="email" id="email" placeholder="Digite seu email" required />
+                        </p>
+                        <!-- SENHAS -->
+                        <p class="input-bg">
+                            <i class=" icon ph ph-lock"></i>
+                            <input type="password" id="senha" placeholder="Escolha uma senha" minlength="8" required />
+                        </p>
+                        <i class="icon eye1 ph ph-eye" id="verSenha"> </i>
+                        <!-- CONFIRME -->
+                        <p class="input-bg">
+                            <i class=" icon ph ph-lock"></i>
+                            <input type="password" id="confirmSenha" placeholder="Confirme sua senha" minlength="8"
+                                required />
+                        </p>
+                        <i class="icon eye3  ph ph-eye" id="verConfirmSenha"> </i>
+                        <script src="botao.js"> </script>
+
+                        <!-- SENHAS -->
+
+                        <ul>
+                            <li>Obrigatório ter no mínimo 8 digitos; </li>
+                            <li>Misture letras e números;</li>
+                            <li> DICA: Não use uma senha particularmente fraca, por exemplo, "senha123". </li>
+                        </ul>
+                        <div id="lembrar-input">
+                            <input type="checkbox" name="lembrar" id="lembrar">
+                            <label> Lembre-se de mim </label>
+                        </div>
+                        <button id='button'> Login </button>
+                        <p class="p-registro"> Já tem uma conta? Incrível, entre por <a href="index.html"> aqui! </a>
+                        </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> Foto do background de
+            <a href="https://unsplash.com/@fakurian?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Milad
+                Fakurian</a> na <a
+                href="https://unsplash.com/pt-br/fotografias/PGdW_bHDbpI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            <p> <a href="https://www.flaticon.com/free-icons/login" title="login icons"> Login icons created by
+                    abyhadesign - Flaticon</a> </p>
+                    <p> <a target="_blank" href="https://icons8.com/icon/pUR1HIVWdCHs/lua-brilhante">Lua brilhante</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> </p>
+    </footer>
+</body>
+
+</html>
