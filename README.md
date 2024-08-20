@@ -49,4 +49,3 @@ Ao todo são 4 páginas em HTML (Index - que diz respeito a tela de login; regis
 - Fontes: **[Nunito](https://fonts.google.com/specimen/Nunito?query=nunito)**
 
 
-Feito com ❤️ por Renata Alves - [Entre em contato!](https://www.linkedin.com/in/renataalvesz/)
